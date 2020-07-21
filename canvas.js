@@ -19,10 +19,10 @@ if (d3.select(".canvas")._groups[0][0]) {
 	scaleY = 0.9;
 	canvas = d3.select(".canvas");
 	tipoRamo = Ramo;
-	welcomeTitle = `¡Bienvenido a la Malla Interactiva de `
-	welcomeDesc = `Puedes tachar tus ramos aprobados haciendo click sobre ellos.
+	welcomeTitle = `¡Hola Princesa, bienvenida a la Malla de `
+	welcomeDesc = `Espero que te sea de utilidad amor. Puedes tachar tus ramos haciendo click sobre ellos.
 	A medida que vas aprobando ramos, se van liberando los que tienen prerrequisitos.
-	Haz click en cualquier lado para comenzar.`
+	Te amo.`
 
 }	else if (d3.select(".priori-canvas")._groups[0][0]) {
 	
