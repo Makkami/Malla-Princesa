@@ -54,8 +54,9 @@ canvas = canvas.append("svg")
 		.attr('height', height);
 
 var carreras = {
-	'INF': 'Informática',
-    'OBS': 'Obstetricia'
+	'OBS': 'Obstetricia',
+	'INF': 'Informática'
+    
 }
 
 /* ---------- axis ---------- */
@@ -84,8 +85,8 @@ $("#carrera").text(carreras[current_malla]);
  * AN: Análisis Numérico
  */
 d3.queue()
-	.defer(d3.json, "/data/data_" + current_malla + ".json")
-	.defer(d3.json, "/data/colors_" + current_malla + ".json")
+	.defer(d3.json, "data/data_" + current_malla + ".json")
+	.defer(d3.json, "data/colors_" + current_malla + ".json")
   .await(main_function);
 
 function main_function(error, data, colorBySector) {
