@@ -84,11 +84,11 @@ $("#carrera").text(carreras[current_malla]);
  * AN: Análisis Numérico
  */
 d3.queue()
-
+	/*
 	.defer(d3.json, "https://github.com/Makkami/Malla-Princesa/blob/master/data/data_" + current_malla + ".json")
-	.defer(d3.json, "https://github.com/Makkami/Malla-Princesa/blob/master/data/colors_" + current_malla + ".json")
-	/*.defer(d3.json, "/data/data_" + current_malla + ".json")
-	.defer(d3.json, "/data/colors_" + current_malla + ".json")*/
+	.defer(d3.json, "https://github.com/Makkami/Malla-Princesa/blob/master/data/colors_" + current_malla + ".json")*/
+	.defer(d3.json, "/data/data_" + current_malla + ".json")
+	.defer(d3.json, "/data/colors_" + current_malla + ".json")
   .await(main_function);
 
 function main_function(error, data, colorBySector) {
