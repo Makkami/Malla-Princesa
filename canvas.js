@@ -85,7 +85,7 @@ $("#carrera").text(carreras[current_malla]);
  */
 d3.queue()
 
-	.defer(d3.json, "https://github.com/Makkami/Malla-Princesa/blob/master/data/data_OBS.json" + current_malla + ".json")
+	.defer(d3.json, "https://github.com/Makkami/Malla-Princesa/blob/master/data/data_" + current_malla + ".json")
 	.defer(d3.json, "https://github.com/Makkami/Malla-Princesa/blob/master/data/colors_" + current_malla + ".json")
 	/*.defer(d3.json, "/data/data_" + current_malla + ".json")
 	.defer(d3.json, "/data/colors_" + current_malla + ".json")*/
