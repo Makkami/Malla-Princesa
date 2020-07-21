@@ -1,0 +1,96 @@
+{
+	"s1": [
+		["Bases Biológicas, Bioquímicas y Físicas del Cuerpo Humano", "S-83302", 14, "PC"],
+		["Anatomía General", "S-83303", 7, "PC"],
+		["Psicología General y Clínica", "S-83304", 7, "HUM"],
+		["Introducción a los Cuidados Clínicos de Matronería", "S-83306", 8, "MAT"],
+        ["Humanización y Consciencia Corporal", "S-83307", 7, "HUM"],
+        ["Inglés", "S-711", 7, "EXT"]
+	],
+
+
+	"s2": [
+        ["Bases Biológicas, Bioquímicas y Físicas del Cuerpo Humano", "S-83302", 14, "PC"],
+		["Salud Pública y Gestión I", "S-83309", 4, "SAL"],
+        ["Desarrollo Habilidades Profesionales", "S-83310", 2, "HUM"],
+        ["Introducción a los Cuidados Clínicos de Matronería", "S-83306", 8, "MAT"],
+		["Anatomía Especializada", "S-83317", 7, "PC", ["S-83303"]],
+        ["Inglés II", "S-712", 3, "EXT", ["S-711"]],
+        ["Informática Biomédica", "S-83313", 3, "INV"]
+	],
+
+
+	"s3": [
+		["Antropología", "S-83314", 2, "PC"],
+		["Histología", "S-83315", 4, "PC", ["S-83302"]],
+		["Microbiología", "S-83316", 5, "PC", ["S-83302"]],
+		["Fisiología Clínica", "S-83345", 6, "PC", ["S-83302"]],
+		["Cuidados Clínicos de Matronería Médico Quirúrgico", "S-83318", 10, "MAT", ["S-83306"]],
+        ["Inglés III", "S-713", 3, "EXT", ["S-712"]],
+        ["Salud Familiar y Gestión II", "S-83319", 5, "SAL", ["S-83309"]]
+	],
+
+	
+	"s4": [
+		["Embriología", "S-83321", 5, "PC", ["S-83315"]],
+		["Fisiopatología", "S-83322", 7, "PC", ["S-83317"]],
+		["Farmacología", "S-83323", 3, "PC", ["S-83317"]],
+        ["Obstetricia I", "S-83349", 3, "OBS", ["S-83317", "S-83306"]],
+        ["Cuidados Clínicos de Matronería Médico Quirúrgico", "S-83318", 3, "MAT", ["S-83306"]],
+        ["Inglés IV", "S-714", 3, "EXT", ["S-713"]],
+		["Neonatología I", "S-83350", 3, "NEO", ["S-83317", "S-83306"]]
+	],
+
+
+
+	"s5": [
+		["Obstetricia II", "S-83346", 3, "OBS", ["S-83321", "S-83322", "S-83318", "S-83349", "S-83323"]],
+		["Neonatología II", "S-83347", 4, "NEO", ["S-83321", "S-83322", "S-83318", "S-83350", "S-83323"]],
+		["Ginecología I y Planificación Familiar", "S-83348", 3, "GIN", ["S-83322", "S-83318", "S-83323"]],
+		["Sexualidad y Afectividad", "S-83329", 3, "SEX", ["S-83322"]],
+        ["Gestión y Liderazgo", "S-83330", 3, "SAL", ["S-83319"]],
+        ["Epidemiología en Salud Sexual Reproductiva", "S-83331", 3, "PC", ["S-83314"]],
+		["Sello 1", "S-83332", 2, "EXT"]
+	],
+
+	"s6": [
+        ["Obstetricia II", "S-83346", 3, "OBS", ["S-83321", "S-83322", "S-83318", "S-83349", "S-83323"]],
+		["Neonatología II", "S-83347", 4, "NEO", ["S-83321", "S-83322", "S-83318", "S-83350", "S-83323"]],
+		["Ginecología I y Planificación Familiar", "S-83348", 3, "GIN", ["S-83322", "S-83318", "S-83323"]],
+		["Metodología de la Investigación Científica", "S-83333", 3, "INV", ["S-83313"]],
+		["Educación para la Salud", "S-83351", 4, "SEX", ["S-83329"]],
+		["Bioética del Ejercicio Profesional", "S-83335", 3, "SAL", ["S-83319"]]
+	],
+
+
+	"s7": [
+		["Obstetricia III y Gestión en Salud", "S-83336", 3, "OBS"],
+		["Neonatología III y Gestión en Salud", "S-83337", 3, "NEO"],
+		["Ginecología II y Gestión en Salud", "S-83338", 3, "GIN"],
+		["Seminario de Grado Académico", "S-83339", 3, "INV", ["S-83333"]],
+        ["Sello 2", "S-83340", 5, "EXT"]
+	],
+
+
+	"s8": [
+		["Obstetricia III y Gestión en Salud", "S-83336", 3, "OBS"],
+		["Neonatología III y Gestión en Salud", "S-83337", 3, "NEO"],
+		["Ginecología II y Gestión en Salud", "S-83338", 3, "GIN"],
+		["Seminario de Grado Académico", "S-83339", 3, "INV", ["S-83333"]],
+        ["Medicina Legal en Matronería", "S-83341", 5, "SAL", ["S-83335"]]
+	],
+
+
+	"s9": [
+		["Internado en Gineco-Obsetricia y Gestión en Salud", "S-83352", 3, "INT"],
+		["Internado en Neonatología y Gestión en Salud", "S-83353", 4, "INT"],
+		["Internado en Atención Primaria y Gestión en Salud", "S-83354", 4, "INT"]
+	],
+
+
+	"s10": [
+		["Internado en Gineco-Obsetricia y Gestión en Salud", "S-83352", 3, "INT"],
+		["Internado en Neonatología y Gestión en Salud", "S-83353", 4, "INT"],
+		["Internado en Atención Primaria y Gestión en Salud", "S-83354", 4, "INT"]
+	]
+}
