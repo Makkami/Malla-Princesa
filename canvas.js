@@ -19,7 +19,7 @@ if (d3.select(".canvas")._groups[0][0]) {
 	scaleY = 0.9;
 	canvas = d3.select(".canvas");
 	tipoRamo = Ramo;
-	welcomeTitle = `¡Hola Princesa, bienvenida a la Malla de `
+	welcomeTitle = `Hola Princesa, bienvenida a la malla de `
 	welcomeDesc = `Espero que te sea de utilidad amor. Puedes tachar tus ramos haciendo click sobre ellos.
 	A medida que vas aprobando ramos, se van liberando los que tienen prerrequisitos.
 	Te amo.`
@@ -54,7 +54,7 @@ canvas = canvas.append("svg")
 		.attr('height', height);
 
 var carreras = {
-	'OBS': 'Obstetricia',
+	'OBS': 'Obstetricia y Puericultura',
 	'INF': 'Informática'
     
 }
