@@ -1,0 +1,13 @@
+{
+	"PC": ["#f9c65a", "Plan Común"],
+	"NEO": ["#05a6ae", "Neonatología"],
+	"HUM": ["#E4AFE9", "Humanistas"],
+	"MAT": ["#af4b73", "Matronería"],
+	"EXT": ["#f3a17d", "Extras"],
+	"SAL": ["#6b99b4", "Gestión"],
+	"INV": ["#fd7e47", "Investigación"],
+	"SEX": ["#8b57a5", "Salud"],
+	"OBS": ["#c6a8a1", "Obstetricia"],
+	"GIN": ["#26b3f6", "Ginecología"],
+	"INT": ["#ff9f53", "Internado"] 
+}

@@ -86,7 +86,7 @@ $("#carrera").text(carreras[current_malla]);
  */
 d3.queue()
 	.defer(d3.json, "data_" + current_malla + ".json")
-	.defer(d3.json, "/data/colors_" + current_malla + ".json")
+	.defer(d3.json, "colors_" + current_malla + ".json")
   .await(main_function);
 
 function main_function(error, data, colorBySector) {
